@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AceScannerTestSuite,,,,2019-07-04 10:03:21,2019-07-04 10:04:35,1m - 14.200s,INCOMPLETE
+,,,,,,,
+Test Cases/AceScannerTest,,,,2019-07-04 10:03:21,2019-07-04 10:04:35,1m - 13.789s,PASSED
+"startApplication(""/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk"", true)",,,,2019-07-04 10:03:21,2019-07-04 10:04:13,51.465s,PASSED
+"tap(findTestObject(""aceScanner/android.view.View0 - ""), 10)",,,,2019-07-04 10:04:13,2019-07-04 10:04:16,3.689s,PASSED
+"tap(findTestObject(""aceScanner/android.widget.ImageView0 (1)""), 10)",,,,2019-07-04 10:04:16,2019-07-04 10:04:19,2.902s,PASSED
+"comment(""Wait for 10 seconds the app to process the image"")",,,,2019-07-04 10:04:19,2019-07-04 10:04:19,0.024s,PASSED
+delay(10),,,,2019-07-04 10:04:19,2019-07-04 10:04:29,10.115s,PASSED
+"comment(""Extract the processed text"")",,,,2019-07-04 10:04:29,2019-07-04 10:04:29,0.003s,PASSED
+"capturedText = getText(findTestObject(""aceScanner/android.widget.EditText0 - Bank Name1234 5678 9876 5432 (1)""), 10)",,,,2019-07-04 10:04:29,2019-07-04 10:04:30,0.332s,PASSED
+comment(capturedText),,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.003s,PASSED
+"comment(""Extract the Bank name to a variable and remove spaces"")",,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.003s,PASSED
+"bankName = replaceAll(""[^a-zA-Z]"", """").trim()",,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.003s,PASSED
+comment(bankName),,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.004s,PASSED
+"verifyEqual(bankName, ""BankName"")",,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.009s,PASSED
+"comment(""Extract the Account Number to a variable and remove spaces"")",,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.004s,PASSED
+"accountNumber = ]"", """").trim()",,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.001s,PASSED
+comment(accountNumber),,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.005s,PASSED
+"verifyEqual(accountNumber, ""1234567898765432"")",,,,2019-07-04 10:04:30,2019-07-04 10:04:30,0.004s,PASSED
+closeApplication(),,,,2019-07-04 10:04:30,2019-07-04 10:04:35,4.897s,PASSED

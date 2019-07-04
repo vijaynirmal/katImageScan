@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="AceScannerTestSuite" time="81" tests="1" failures="0" errors="0">
+    <testsuite name="AceScannerTestSuite" tests="1" failures="0" errors="0" time="81" timestamp="2019-07-04 10:06:29" hostname="sjvijay - 192.168.1.3" id="Test Suites/AceScannerTestSuite">
+        <properties>
+            <property name="deviceName" value="motorola Moto C Plus (Android 7.0)"/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/sjvijay/Katalon Studio/ABTest/Reports/20190704_100624/AceScannerTestSuite/20190704_100624"/>
+            <property name="logFiles" value="/Users/sjvijay/Katalon Studio/ABTest/Reports/20190704_100624/AceScannerTestSuite/20190704_100624/execution0.log, /Users/sjvijay/Katalon Studio/ABTest/Reports/20190704_100624/AceScannerTestSuite/20190704_100624/appium.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="sjvijay - 192.168.1.3"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.0.1"/>
+            <property name="deviceOS" value="Android"/>
+            <property name="appiumVersion" value="1.13.0"/>
+            <property name="deviceModel" value="Moto C Plus"/>
+            <property name="hostAddress" value="192.168.1.3"/>
+            <property name="deviceManufacturer" value="motorola"/>
+            <property name="deviceId" value="ZW22246Z2F"/>
+            <property name="deviceName" value="motorola Moto C Plus (Android 7.0)"/>
+            <property name="deviceOSVersion" value="7.0"/>
+        </properties>
+        <testcase name="Test Cases/AceScannerTest" classname="Test Cases/AceScannerTest" status="PASSED">
+            <system-out>2019-07-04 10:06:29 - [TEST_CASE][PASSED] - Test Cases/AceScannerTest: Test Cases/AceScannerTest
+
+2019-07-04 10:06:30 - [TEST_STEP][PASSED] - startApplication("/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk", true): Started app at: '/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk'
+
+2019-07-04 10:06:54 - [MESSAGE][INFO] - Appium server started on port 58,045
+
+2019-07-04 10:07:28 - [MESSAGE][PASSED] - Started app at: '/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk'
+
+2019-07-04 10:07:28 - [TEST_STEP][PASSED] - tap(findTestObject("aceScanner/android.view.View0 - "), 10): Tapped on element 'Object Repository/aceScanner/android.view.View0 - '
+
+2019-07-04 10:07:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/aceScanner/android.view.View0 - '
+
+2019-07-04 10:07:31 - [TEST_STEP][PASSED] - tap(findTestObject("aceScanner/android.widget.ImageView0 (1)"), 10): Tapped on element 'Object Repository/aceScanner/android.widget.ImageView0 (1)'
+
+2019-07-04 10:07:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/aceScanner/android.widget.ImageView0 (1)'
+
+2019-07-04 10:07:33 - [TEST_STEP][PASSED] - comment("Wait for 10 seconds the app to process the image"): Wait for 10 seconds the app to process the image
+
+2019-07-04 10:07:33 - [MESSAGE][INFO] - Wait for 10 seconds the app to process the image
+
+2019-07-04 10:07:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-07-04 10:07:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - comment("Extract the processed text"): Extract the processed text
+
+2019-07-04 10:07:43 - [MESSAGE][INFO] - Extract the processed text
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - capturedText = getText(findTestObject("aceScanner/android.widget.EditText0 - Bank Name1234 5678 9876 5432 (1)"), 10): Text of element 'Object Repository/aceScanner/android.widget.EditText0 - Bank Name1234 5678 9876 5432 (1)' is: 'Bank Name
+1234 5678 9876 5432
+'
+
+2019-07-04 10:07:43 - [MESSAGE][PASSED] - Text of element 'Object Repository/aceScanner/android.widget.EditText0 - Bank Name1234 5678 9876 5432 (1)' is: 'Bank Name
+1234 5678 9876 5432
+'
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - comment(capturedText): Bank Name
+1234 5678 9876 5432
+
+
+2019-07-04 10:07:43 - [MESSAGE][INFO] - Bank Name
+1234 5678 9876 5432
+
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - comment("Extract the Bank name to a variable and remove spaces"): Extract the Bank name to a variable and remove spaces
+
+2019-07-04 10:07:43 - [MESSAGE][INFO] - Extract the Bank name to a variable and remove spaces
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - bankName = replaceAll("[^a-zA-Z]", "").trim(): null
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - comment(bankName): BankName
+
+2019-07-04 10:07:43 - [MESSAGE][INFO] - BankName
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - verifyEqual(bankName, "BankName"): Actual object 'BankName' and expected object 'BankName' are equal
+
+2019-07-04 10:07:43 - [MESSAGE][PASSED] - Actual object 'BankName' and expected object 'BankName' are equal
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - comment("Extract the Account Number to a variable and remove spaces"): Extract the Account Number to a variable and remove spaces
+
+2019-07-04 10:07:43 - [MESSAGE][INFO] - Extract the Account Number to a variable and remove spaces
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - accountNumber = ]", "").trim(): null
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - comment(accountNumber): 1234567898765432
+
+2019-07-04 10:07:43 - [MESSAGE][INFO] - 1234567898765432
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - verifyEqual(accountNumber, "1234567898765432"): Actual object '1234567898765432' and expected object '1234567898765432' are equal
+
+2019-07-04 10:07:43 - [MESSAGE][PASSED] - Actual object '1234567898765432' and expected object '1234567898765432' are equal
+
+2019-07-04 10:07:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-07-04 10:07:50 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-04 10:06:29 - [TEST_SUITE][INCOMPLETE] - AceScannerTestSuite: null</system-out>
+        <system-err>2019-07-04 10:06:29 - [TEST_SUITE][INCOMPLETE] - AceScannerTestSuite: null</system-err>
+    </testsuite>
+</testsuites>

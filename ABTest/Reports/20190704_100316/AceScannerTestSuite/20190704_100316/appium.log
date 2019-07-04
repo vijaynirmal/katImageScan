@@ -1,0 +1,166 @@
+[35m[Appium][39m Welcome to Appium v1.13.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 57840
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 57841
+[35m[Appium][39m   tmpDir: /var/folders/kc/rn8fx3c11rv7b_1zlcq_v_z80000gn/T//Katalon/Appium/Temp1562214802028
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:57840
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk","noReset":false,"deviceName":"motorola Moto C Plus (Android 7.0)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ZW22246Z2F","systemPort":57839},"capabilities":{"firstMatch":[{"appium:app":"/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"motorola Moto C Plus (Android 7.0)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":57839,"appium:udid":"ZW22246Z2F"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.13.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   app: /Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: motorola Moto C Plus (Android 7.0)
+[35m[Appium][39m   fullReset: true
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   platformVersion: 7.0
+[35m[Appium][39m   systemPort: 57839
+[35m[Appium][39m   udid: ZW22246Z2F
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: platform.
+[35m[BaseDriver][39m Session created with session id: 5f6b7f3f-a18d-43dd-bd71-49299c0bc97b
+[35m[BaseDriver][39m Using local app '/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/sjvijay/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/sjvijay/.katalon/tools/android_sdk/build-tools/29.0.0
+[35m[ADB][39m Using 'adb' from '/Users/sjvijay/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: ZW22246Z2F
+[35m[ADB][39m Using 'adb' from '/Users/sjvijay/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Using 'apkanalyzer' from '/Users/sjvijay/.katalon/tools/android_sdk/tools/bin/apkanalyzer'
+[35m[ADB][39m Using the alternative activity name detection method because of: Command '/Users/sjvijay/.katalon/tools/android_sdk/tools/bin/apkanalyzer -h manifest print '/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk'' exited with code 1
+[35m[ADB][39m Using 'aapt' from '/Users/sjvijay/.katalon/tools/android_sdk/build-tools/29.0.0/aapt'
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.impressmedium.textscanner'
+[35m[ADB][39m Main activity name: 'com.impressmedium.textscanner.MainActivity'
+[35m[ADB][39m Using 'apksigner' from '/Users/sjvijay/.katalon/tools/android_sdk/build-tools/29.0.0/apksigner'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m com.impressmedium.textscanner was not uninstalled, because it was not present on the device
+[35m[ADB][39m The application at '/Users/sjvijay/Downloads/Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk' is already cached to '/data/local/tmp/appium_cache/b84e7c41845c62d0dd8524c163e6d143682478b4.apk'
+[35m[ADB][39m The installation of 'Ace Scanner OCR Translator_v2.13.0_apkpure.com.apk' took 9.054s
+[35m[UiAutomator2][39m Starting UIAutomator2 server 3.5.1
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.5.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.impressmedium.textscanner/com.impressmedium.textscanner.MainActivity'. Starting it ourselves
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 5f6b7f3f-a18d-43dd-bd71-49299c0bc97b added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m30233 ms - 1266[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b [39m[32m200[39m [90m177 ms - 1198[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b [39m[32m200[39m [90m22 ms - 1198[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/window/rect [39m[32m200[39m [90m30 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements [39m[32m200[39m [90m1033 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/47ad9882-89d7-448c-b773-4a90ad30bd4b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5f6b7f3f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId c7e01c48-f84c-4b97-8ed4-e596d636d405 with 5f6b7f3f-a18d-43dd-bd71-49299c0bc97b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/47ad9882-89d7-448c-b773-4a90ad30bd4b/location [39m[32m200[39m [90m66 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"47ad9882-89d7-448c-b773-4a90ad30bd4b"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 47ad9882-89d7-448c-b773-4a90ad30bd4b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/touch/perform [39m[32m200[39m [90m2254 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/window/rect [39m[32m200[39m [90m35 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.android.documentsui:id/icon_thumb\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements [39m[32m200[39m [90m1381 ms - 779[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/1b652d15-9c25-43c1-80df-42a4d2b1496f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5f6b7f3f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId c7e01c48-f84c-4b97-8ed4-e596d636d405 with 5f6b7f3f-a18d-43dd-bd71-49299c0bc97b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/1b652d15-9c25-43c1-80df-42a4d2b1496f/location [39m[32m200[39m [90m134 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"1b652d15-9c25-43c1-80df-42a4d2b1496f"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 1b652d15-9c25-43c1-80df-42a4d2b1496f
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/touch/perform [39m[32m200[39m [90m1294 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/window/rect [39m[32m200[39m [90m36 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Bank Name\n1234 5678 9876 5432\n\").resourceId(\"ocr-text\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/elements [39m[32m200[39m [90m139 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/78565846-931b-4379-bf55-59fdb13baa8e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5f6b7f3f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId c7e01c48-f84c-4b97-8ed4-e596d636d405 with 5f6b7f3f-a18d-43dd-bd71-49299c0bc97b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/78565846-931b-4379-bf55-59fdb13baa8e/location [39m[32m200[39m [90m65 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/78565846-931b-4379-bf55-59fdb13baa8e/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5f6b7f3f)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId c7e01c48-f84c-4b97-8ed4-e596d636d405 with 5f6b7f3f-a18d-43dd-bd71-49299c0bc97b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b/element/78565846-931b-4379-bf55-59fdb13baa8e/text [39m[32m200[39m [90m54 ms - 106[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 5f6b7f3f-a18d-43dd-bd71-49299c0bc97b from our master session list
+[35m[ADB][39m com.impressmedium.textscanner was successfully uninstalled
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/5f6b7f3f-a18d-43dd-bd71-49299c0bc97b [39m[32m200[39m [90m4600 ms - 14[39m
+[35m[HTTP][39m [90m[39m
